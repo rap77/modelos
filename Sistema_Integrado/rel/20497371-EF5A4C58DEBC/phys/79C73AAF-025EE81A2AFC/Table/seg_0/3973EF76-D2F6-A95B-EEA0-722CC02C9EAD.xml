@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="GL_PERSONAS_JURIDICAS" directorySegmentName="seg_0" id="3973EF76-D2F6-A95B-EEA0-722CC02C9EAD">
+<createdBy>padron</createdBy>
+<createdTime>2020-02-07 15:30:31 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<schemaObject>33962A9B-ED1D-9C59-154E-84F9E6AC029B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>D6CEFF5F-722B-AD19-143B-1DB4A5350929</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FOLIO_REG_MERC" id="1C2420A3-E869-4967-A947-C3C9AED153BD">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-28 20:49:40 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REG_MERCANTIL" id="4AA91362-2C4D-B9C3-7989-C6B03ABA8EA4">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-28 20:49:40 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TOMO_REC_MERC" id="6200C74A-912D-CF87-10CC-630C2AC7FFDF">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-28 20:49:40 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE_COMERCIAL" id="6A86CE00-889A-139D-D6A0-56B997FAB017">
+<createdBy>padron</createdBy>
+<createdTime>2020-02-07 15:30:31 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="BA01FED1-FEBC-6191-7EBF-1CA5113D3EB3">
+<createdBy>padron</createdBy>
+<createdTime>2020-02-07 15:30:31 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HOJA_REG_MERC" id="CB59269B-1BE3-D459-66C9-CBAD8E1CB8F9">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-28 20:49:40 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_REG_MERC" id="F7D05D7C-8F3D-B8E8-3E2E-862C9FEBEBEE">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-28 20:49:40 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<defaultValue>SYSDATE</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PERSONA_JURIDICA_PK" id="8C3C6847-FE00-6934-BA34-7D9815F6FC47">
+<createdBy>padron</createdBy>
+<createdTime>2020-02-07 15:30:31 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<user>D6CEFF5F-722B-AD19-143B-1DB4A5350929</user>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PER_JUR_PER_FK" id="91819219-3C8F-002F-ECA2-C53DA61893E7">
+<createdBy>padron</createdBy>
+<createdTime>2020-02-07 15:31:46 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PERSONAS_JURIDICAS_PK" id="0556298D-92A8-AFC8-826B-6F13849D5095">
+<createdBy>padron</createdBy>
+<createdTime>2020-02-07 15:30:31 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

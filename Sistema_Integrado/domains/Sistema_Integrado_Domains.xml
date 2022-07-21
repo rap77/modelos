@@ -1,0 +1,360 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Sistema_Integrado_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100 BYTEv1" id="0B7880FD-367B-4F1A-0628-5A71AACBCCA2">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20 BYTE" id="1E1EDBB2-BFFF-4E6B-3A44-7921F267125D">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_4000 BYTE" id="20D62999-5C16-A4FD-964D-F2161D2F317B">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30 BYTEv1" id="22B7D9E6-B03E-D6A1-89F7-610A1BB6591E">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CLOB_0_0_4000" id="26650201-6708-9F25-3D46-807403E63E7C">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:39 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>4000</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT028</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0v2" id="2D75CA11-129A-0586-6D89-3E7BCB7C7E77">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>TO_DATE(&apos;01/01/1800&apos;,&apos;DD/MM/YYYY&apos;)</beginValue>
+<endValue>TO_DATE(&apos;31/12/2100&apos;,&apos;DD/MM/YYYY&apos;)</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0v3" id="2E042F24-976B-7799-055B-5D3E74386336">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>TO_DATE(&apos;01/01/1800&apos;,&apos;DD/MM/YYYY&apos;)</beginValue>
+<endValue>TO_DATE(&apos;31/12/2100&apos;,&apos;DD/MM/YYYY&apos;)</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_15 BYTE" id="34EDC58D-84F1-607E-943E-6E1546B9FE93">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>&apos;1&apos;</beginValue>
+<endValue>&apos;999999999&apos;</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1 BYTEv2" id="43ACE928-2300-0BEC-5DC9-626EA449EAB9">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;S&apos;</defaultValue>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0v1" id="4F7514DF-C092-3EF1-9C84-76CBD850F230">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>TO_DATE(&apos;01/01/1800&apos;,&apos;DD/MM/YYYY&apos;)</beginValue>
+<endValue>TO_DATE(&apos;01/01/2100&apos;,&apos;DD/MM/YYYY&apos;)</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1 BYTEv1" id="5927C709-9AD4-75E7-7CAA-855B21842B89">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;S&apos;</defaultValue>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_1_0_0" id="6DE011AF-A283-6FED-1E65-611D98CF6508">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>1</dataTypePrecision>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>9</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_2 BYTE" id="8142FAC4-BF42-DC12-262C-31DA746C1F4E">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1 CHARv1" id="83357E39-7749-3C61-5B55-31B12E7195EA">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="8B7994DC-2588-7C47-7A5E-BD7FE1BA3DF4">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>TO_DATE(&apos;01/01/1800&apos;&apos;DD/MM/YYYY&apos;)</beginValue>
+<endValue>TO_DATE(&apos;01/01/2100&apos;&apos;DD/MM/YYYY&apos;)</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30 BYTE" id="98258F61-ABB2-22C2-9C81-A609E68037BB">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<defaultValue>coalesce(sys_context(&apos;APEX$SESSION&apos;, &apos;app_user&apos;), regexp_substr(sys_context(&apos;userenv&apos;, &apos;client_identifier&apos;),     &apos;^[^:]*&apos;), sys_context(&apos;userenv&apos;, &apos;session_user&apos;))</defaultValue>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1 BYTE" id="9FADEDBD-EAC1-C02A-4F84-633F3B5E7DA5">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;S&apos;</defaultValue>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_7" id="A2C2DD46-71FD-5B3F-6541-657A2812C527">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0v4" id="A49C350F-A6C5-BB6B-00D6-83E45CD85778">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_300 BYTE" id="B83ABEB4-9B59-B7DF-4FFB-864D018BC5B1">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255 BYTE" id="BAC9A32E-D763-A80B-687B-A7AEDF9A3EA3">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_6_0_0" id="C0F7DD68-E19C-B456-896A-0E52456FB7E8">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>6</dataTypePrecision>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition=" &quot;ORDEN_DISPLAY&quot; &gt;= 0                                                AND &quot;ORDEN_DISPLAY&quot; &lt;= 999999 "/>
+<implementationDef dbType="Oracle Database 12cR2" definition=" &quot;ORDEN_DISPLAY&quot; &gt;= 0                                                AND &quot;ORDEN_DISPLAY&quot; &lt;= 999999 "/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_10_0_0" id="C59FEA54-EFDB-A275-8C7E-B965C70ADCAD">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100 BYTE" id="CBA804AF-9FBE-9A6A-282E-9F08FC32B7D5">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<defaultValue>user</defaultValue>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1 BYTEv3" id="CC2796FC-2E6E-DCF2-4C7F-1C1A53421563">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;S&apos;</defaultValue>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition=" &quot;DESPLEGAR&quot; = &apos;N&apos;                                             OR &quot;DESPLEGAR&quot; = &apos;S&apos; "/>
+<implementationDef dbType="Oracle Database 12cR2" definition=" &quot;DESPLEGAR&quot; = &apos;N&apos;                                             OR &quot;DESPLEGAR&quot; = &apos;S&apos; "/>
+</checkConstraint>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_1_0_0v1" id="D0CF59BC-0382-2737-B7CD-8F3A582610C6">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>1</dataTypePrecision>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50 BYTE" id="E5C841DC-FBD0-637A-D52F-D34BC23E00A8">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1 CHAR" id="ED69A0D0-DE02-0EE2-974D-0667F0D93376">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_80 BYTE" id="EF7CEAD5-67A0-D793-029B-90C3BF1A099A">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1 BYTEv4" id="EFB337E3-273C-095E-298F-0BE8680A476E">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<defaultValue>&apos;S&apos;</defaultValue>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;S&apos;" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_240 BYTE" id="F1912ABE-135A-A934-3597-C361B560E315">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:39 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>240 BYTE</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_7v1" id="FD49FAFC-7E7F-2F74-B912-BA2B4CD23424">
+<createdBy>rpadron</createdBy>
+<createdTime>2020-11-29 15:13:38 UTC</createdTime>
+<ownerDesignName>Sistema_Integrado</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>7</dataTypeSize>
+<fileName>Sistema_Integrado_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>
